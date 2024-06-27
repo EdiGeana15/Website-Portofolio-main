@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduard's Portofolio</title>
+    <link rel="stylesheet" href="externals/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="externals/aos/aos.css" />
+    <link rel="stylesheet" href="externals/sweetAlert/sweetalert2.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header class="main-header">
+      <nav class="navbar header-nav navbar-expand-lg">
+        <div class="container">
+          <a href="#" class="navbar-logo">
+            <img id="logo" src="img/logo.png" alt="page logo" />
+          </a>
+
+          <!--menu-->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbar-collapse-toggle"
+          >
+            <ul class="navbar-nav mx-auto">
+              <li>
+                <a
+                  data-aos="fade-down"
+                  data-aos-delay="50"
+                  href="#home"
+                  class="nav-link"
+                  data-scroll-nav="0"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  data-aos="fade-down"
+                  data-aos-delay="100"
+                  href="#about"
+                  class="nav-link"
+                  data-scroll-nav="1"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  data-aos="fade-down"
+                  data-aos-delay="150"
+                  href="#services"
+                  class="nav-link"
+                  data-scroll-nav="2"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#skills"
+                  data-aos="fade-down"
+                  data-aos-delay="200"
+                  class="nav-link"
+                  data-scroll-nav="3"
+                  >Skills</a
+                >
+              </li>
+              <li>
+                <a
+                  data-aos="fade-down"
+                  data-aos-delay="250"
+                  href="#portofolio"
+                  class="nav-link"
+                  data-scroll-nav="4"
+                  >Portofolio</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--contact me-->
+          <div class="ms-auto d-none d-lg-block" data-scroll-nav="6">
+            <a class="colored-btn" href="#contact" class="contact nav-link"
+              >Contact</a
+            >
+          </div>
+          <!--menu toggle-->
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-collapse-toggle"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!--main-->
+    <main>
+      <!--home section-->
+      <section id="home" class="home-section" data-scroll-index="0">
+        <div class="container">
+          <div class="row gy-5 align-items-center">
+            <div class="col-lg-6">
+              <div class="home-intro text-center text-lg-start">
+                <div
+                  data-aos="fade-right"
+                  data-aos-offset="350"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-delay="450"
+                  class="details"
+                >
+                  <h6>Hello, My name is</h6>
+                  <h1>Eduard Geană</h1>
+                  <p>I'm a <span id="type-it"></span></p>
+                  <a href="#" class="colored-btn mt-1">Download CV</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 pt-lg-0">
+              <div class="home-image text-center">
+                <img
+                  data-aos="fade-left"
+                  data-aos-offset="100"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-delay="450"
+                  src="/img/profilepicture2.png"
+                  alt="profile picture of Eduard"
+                />
+                <!-- hexagon profile picture 
+                  <div class="hex">
+                  <img src="" alt="">
+                </div>
+                <svg
+                  style="visibility: hidden; position: absolute"
+                  width="0"
+                  height="0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                >
+                  <defs>
+                    <filter id="goo">
+                      <feGaussianBlur
+                        in="SourceGraphic"
+                        stdDeviation="8"
+                        result="blur"
+                      />
+                      <feColorMatrix
+                        in="blur"
+                        mode="matrix"
+                        values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                        result="goo"
+                      />
+                      <feComposite
+                        in="SourceGraphic"
+                        in2="goo"
+                        operator="atop"
+                      />
+                    </filter>
+                  </defs>
+                </svg> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--about section-->
+      <section id="about" class="section" data-scroll-index="1">
+        <div data-aos="zoom-in-down" data-aos-delay="200" class="container">
+          <div class="row gy-5 align-items-center">
+            <div class="col-lg-6 text-center">
+              <img id="about-img" src="img/about1.png" alt="about-image" />
+            </div>
+            <div class="col-lg-6 ps-lg-5">
+              <div class="about-text">
+                <h3 class="h1 mb-4 fs-4 fw-semibold">
+                  I'm a Freelancer with experience in front-end development and
+                  design.
+                  <i class="fa-solid fa-code fa-lg" style="color: #eb8b05"></i>
+                </h3>
+                <p>
+                  By blending my technical expertise with a genuine passion for
+                  innovation, I'm all in to bring your ideas to life in ways
+                  that not only meet but exceed your expectations. Let's
+                  collaborate on your next project and create something that
+                  impresses!
+                </p>
+                <div class="row pt-2">
+                  <div class="col-12 col-md-9">
+                    <h5 class="fw-semibold fs-3 mb-3">
+                      Ready to Roll Up My Sleeves and Dive into Your Next
+                      Project!
+                    </h5>
+                    <span class="fs-6">
+                      Let's Transform Ideas into Digital Marvels!
+                      <i
+                        class="fa-brands fa-space-awesome fa-xl"
+                        style="color: #eb8b05"
+                      ></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--service section-->
+      <section id="services" class="section" data-scroll-index="2">
+        <div class="container">
+          <div class="section-heading">
+            <h3>My Services</h3>
+          </div>
+          <div class="row gy-4">
+            <div data-aos="flip-left" data-aos-delay="100" class="col-md-6">
+              <div class="feature-box big-box bg-1">
+                <div class="icon"><i class="fa-solid fa-brush"></i></div>
+                <div class="content">
+                  <h5 class="fw-bold fs-3 mb-3">UI/UX Design</h5>
+                  <p>
+                    Specializing in crafting user-friendly and visually stunning
+                    interfaces that make navigating your website a breeze.
+                    Delivering an online experience that not only looks great
+                    but also feels intuitive for your users.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div data-aos="flip-left" data-aos-delay="200" class="col-md-6">
+              <div class="feature-box big-box bg-2">
+                <div class="icon"><i class="fa-solid fa-code"></i></div>
+                <div class="content">
+                  <h5 class="fw-bolder fs-3 mb-3">Development</h5>
+                  <p>
+                    Taking your ideas and turning them into reality. Using the
+                    latest technology, I create websites and applications that
+                    not only look great but also work smoothly, giving your
+                    audience an experience they'll love.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div data-aos="flip-left" data-aos-delay="300" class="col-md-6">
+              <div class="feature-box big-box bg-3">
+                <div class="icon"><i class="fa-solid fa-globe"></i></div>
+                <div class="content">
+                  <h5 class="fw-bold fs-3 mb-3">SEO</h5>
+                  <p>
+                    Elevating your online presence with expert strategies that
+                    boost visibility and drive organic traffic. Optimizing your
+                    content and structure to ensure your website stands out in
+                    search results and attracts the right audience.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div data-aos="flip-left" data-aos-delay="400" class="col-md-6">
+              <div class="feature-box big-box bg-4">
+                <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+                <div class="content">
+                  <h5 class="fw-bold fs-3 mb-3">Marketing</h5>
+                  <p>
+                    Telling your brand's story in a way that resonates with your
+                    audience. From social media campaigns to compelling content,
+                    connecting with your customers and standing out in the
+                    digital landscape.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--skills section-->
+      <section id="skills" class="section" data-scroll-index="3">
+        <div class="container">
+          <div class="row gy-5 justify-content-center">
+            <div class="col-lg-6">
+              <div class="section-heading text-start">
+                <h3>My Skills</h3>
+              </div>
+              <div class="skill-box">
+                <div class="row g-3">
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-delay="100"
+                    class="col-6 col-md-4 col-lg-6"
+                  >
+                    <div class="feature-box feature-box-small bg-1">
+                      <div class="icon">
+                        <img src="img/icons/html.png" alt="html icon" />
+                      </div>
+                      <h6>HTML</h6>
+                    </div>
+                  </div>
+
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-delay="200"
+                    class="col-6 col-md-4 col-lg-6"
+                  >
+                    <div class="feature-box feature-box-small bg-2">
+                      <div class="icon">
+                        <img
+                          src="img/icons/css.png"
+                          alt="css icon"
+                          style="height: 75px"
+                        />
+                      </div>
+                      <h6>CSS</h6>
+                    </div>
+                  </div>
+
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-delay="300"
+                    class="col-6 col-md-4 col-lg-6"
+                  >
+                    <div class="feature-box feature-box-small bg-3">
+                      <div class="icon">
+                        <img src="img/icons/js.png" alt="javascript icon" />
+                      </div>
+                      <h6>JAVA SCRIPT</h6>
+                    </div>
+                  </div>
+
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-delay="400"
+                    class="col-6 col-md-4 col-lg-6"
+                  >
+                    <div class="feature-box feature-box-small bg-4">
+                      <div class="icon">
+                        <img src="img/icons/react.png" alt="react icon" />
+                      </div>
+                      <h6>REACT JS</h6>
+                    </div>
+                  </div>
+
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-delay="500"
+                    class="col-6 col-md-4 col-lg-6"
+                  >
+                    <div
+                      class="feature-box feature-box-small bg-warning-subtle"
+                    >
+                      <div class="icon">
+                        <img
+                          src="img/icons/bootstrap.png"
+                          alt="bootstrap icon"
+                        />
+                      </div>
+                      <h6>BOOTSTRAP</h6>
+                    </div>
+                  </div>
+
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-delay="600"
+                    class="col-6 col-md-4 col-lg-6"
+                  >
+                    <div
+                      class="feature-box feature-box-small bg-success-subtle"
+                    >
+                      <div class="icon">
+                        <img
+                          src="img/icons/vue.png"
+                          alt="vue icon"
+                          style="height: 60px"
+                        />
+                      </div>
+                      <h6>VUE JS</h6>
+                    </div>
+                  </div>
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-delay="850"
+                    class="col-6 col-md-4 col-lg-6"
+                    id="otherSkillsBox"
+                  >
+                    <div class="feature-box feature-box-small bg-success">
+                      <div
+                        class="d-flex align-items-center justify-content-center"
+                        style="height: 30px"
+                      >
+                        <i class="fa-solid fa-terminal fa-xl"></i>
+                        <h6>AND MANY OTHERS</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 text-center">
+              <img id="skills-img" src="img/skillls.png" alt="skills-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--portofolio section-->
+      <section id="portofolio" class="section" data-scroll-index="4">
+        <div class="container">
+          <div class="section-heading">
+            <h3>Latest Projects</h3>
+          </div>
+          <div class="portofolio-box">
+            <div
+              class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center"
+            >
+              <div class="col-md-6 col-lg-5">
+                <div class="portofolio-img">
+                  <img
+                    data-aos="zoom-in-right"
+                    src="img/portofolio/netflixCloneProject.png"
+                    alt="password generator project screenshot"
+                  />
+                </div>
+              </div>
+              <div class="col-md-5 col-lg-5">
+                <div class="portofolio-text">
+                  <span>Web Design</span>
+                  <h4>Netflix Clone</h4>
+                  <p>
+                    An intuitive user interface reminiscent of Netflix, with
+                    features including movie discovery, user authentication, and
+                    seamless content streaming capabilities. COMING SOON
+                  </p>
+                  <a
+                    href="https://github.com/EdiGeana15/Netflix-Clone-Project.git"
+                    target="_blank"
+                    class="colored-btn mt-1"
+                    >SOON</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center flex-row-reverse"
+            >
+              <div class="col-md-6 col-lg-5">
+                <div class="portofolio-img">
+                  <img
+                    data-aos="zoom-in-left"
+                    src="img/portofolio/passwordGeneratorProject.png"
+                    alt="password generator project screenshot"
+                  />
+                </div>
+              </div>
+              <div class="col-md-5 col-lg-5">
+                <div class="portofolio-text">
+                  <span>Utility Tool Development</span>
+                  <h4>Random Password Generator</h4>
+                  <p>
+                    Tool that generates secure and randomized passwords based on
+                    user-defined criteria, enhancing online security and
+                    privacy.
+                  </p>
+                  <a
+                    href="https://edigeana15.github.io/Random-Password-Generator/"
+                    target="_blank"
+                    class="colored-btn mt-1"
+                    >Live Demo</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center"
+            >
+              <div class="col-md-6 col-lg-5">
+                <div class="portofolio-img">
+                  <img
+                    data-aos="zoom-in-right"
+                    src="img/portofolio/bussinesCardProject.png"
+                    alt="password generator project screenshot"
+                  />
+                </div>
+              </div>
+              <div class="col-md-5 col-lg-5">
+                <div class="portofolio-text">
+                  <span>Interactive Digital Design</span>
+                  <h4>Bussines Flip-Card</h4>
+                  <p>
+                    Engaging digital business card with a flip-card animation,
+                    showcasing essential information such as contact details and
+                    professional summary.
+                  </p>
+                  <a
+                    href="https://edigeana15.github.io/Card/"
+                    target="_blank"
+                    class="colored-btn mt-1"
+                    >Live Demo</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center flex-row-reverse"
+            >
+              <div class="col-md-6 col-lg-5">
+                <div class="portofolio-img">
+                  <img
+                    data-aos="zoom-in-left"
+                    src="img/portofolio/chatNestProject.png"
+                    alt="password generator project screenshot"
+                  />
+                </div>
+              </div>
+              <div class="col-md-5 col-lg-5">
+                <div class="portofolio-text">
+                  <span>Web Application Development</span>
+                  <h4>Chat Nest</h4>
+                  <p>
+                    Versatile and interactive chat application, Chat Nest,
+                    offering real-time messaging, group chat functionality, user
+                    authentication, multimedia sharing, and intuitive interface
+                    customization options.
+                  </p>
+                  <a
+                    href="https://github.com/EdiGeana15/Chat-Nest-Chat-App.git"
+                    target="_blank"
+                    class="colored-btn mt-1"
+                    >SOON</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+      <section id="contact" class="section" data-scroll-index="6">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-5">
+              <div data-aos="zoom-in-down" class="contact-form">
+                <h2 class="text-white">Get in touch</h2>
+                <p class="lead text-light">
+                  Drop a Line, Let's Chat, and Make Things Happen!
+                </p>
+                <form action="#">
+                  <div class="row gy-4 gx-3">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <label class="form-label text-light">Name</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="name"
+                          id="name"
+                          autocomplete="off"
+                        />
+                        <div class="error-txt">Full Name can't be blank</div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <label class="form-label text-light">Email</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="email"
+                          id="email"
+                          autocomplete="off"
+                        />
+                        <div class="error-txt email">
+                          Email adress can't be blank
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <label class="form-label text-light">Subject</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="subject"
+                          id="subject"
+                          autocomplete="off"
+                        />
+                        <div class="error-txt">
+                          Subject field can't be blank
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <label class="form-label text-light">Message</label>
+                        <textarea
+                          name="message"
+                          rows="5"
+                          class="form-control"
+                          id="message"
+                          autocomplete="off"
+                        ></textarea>
+                        <div class="error-txt">
+                          Message field can't be blank
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="colored-btn" type="submit">
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-lg-5 ms-auto col-xl-4">
+              <div class="pb-5 d-none d-md-block">
+                <img src="img/contact.png" />
+              </div>
+              <ul class="contact-infos">
+                <li>
+                  <div class="icon bg-1">
+                    <i class="fa-solid fa-phone fa-xl"></i>
+                  </div>
+                  <div class="col ps-3">
+                    <h5>Phone</h5>
+                    <a id="contact-info" href="tel:+40724980242"
+                      >+40 724 980 242</a
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="icon bg-2">
+                    <i class="fa-solid fa-envelope fa-lg"></i>
+                  </div>
+                  <div class="col ps-3">
+                    <h5>Mail</h5>
+                    <a id="contact-info" href="mailto:geanaedi15@gmail.com"
+                      >geanaedi15@gmail.com</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="separator1"></div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 py-2">
+            <div class="nav justify-content-center justify-content-md-start">
+              <a href="https://github.com/EdiGeana15" target="_blank"
+                ><i class="fa-brands fa-github fa-lg"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/gean%C4%83-eduard-andrei-3bb023293/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in fa-lg"></i
+              ></a>
+              <a href="https://www.instagram.com/edigeana15/" target="_blank"
+                ><i class="fa-brands fa-instagram fa-lg"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6 py-2 text-center text-md-end">
+            <p class="m-0" id="copyright"></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="externals/bootstrap/js/bootstrap.min.js"></script>
+    <script src="externals/jquery/jquery-3.7.1.min.js"></script>
+    <script src="externals/scrollit/scrollIt.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script
+      src="https://kit.fontawesome.com/bba7d802b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="externals/aos/aos.js"></script>
+    <script src="externals/smtp/smtp.js"></script>
+    <script src="externals/sweetAlert/sweetalert2.all.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
